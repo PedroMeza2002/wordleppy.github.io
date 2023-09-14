@@ -1,6 +1,6 @@
 let intentos = 6;
 
-const DICCIONARIO = ['APPLE', 'HURLS', 'PILIN', 'YOUTH'];
+const DICCIONARIO = ['APPLE', 'HURLS', 'HELLO', 'YOUTH'];
 let random = Math.floor(Math.random() * DICCIONARIO.length);
 const PALABRA = DICCIONARIO[random];
 console.log(PALABRA);
